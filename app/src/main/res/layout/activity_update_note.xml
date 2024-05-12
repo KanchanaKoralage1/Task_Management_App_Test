@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateNoteActivity">
+
+
+    <TextView
+        android:id="@+id/editNote"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="662dp"
+        android:text="Edit note" />
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="346dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="672dp"
+        app:srcCompat="@drawable/baseline_done_24"
+        android:layout_alignTop="@+id/editNote"/>
+
+    <EditText
+        android:id="@+id/updatetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="54dp"
+        android:layout_below="@+id/editNote"
+        android:layout_marginBottom="510dp"
+        android:ems="10"
+        android:maxLines="1"
+
+        android:inputType="text"
+        android:text="Title" />
+
+    <EditText
+        android:id="@+id/updatedescription"
+        android:layout_width="315dp"
+        android:layout_height="181dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="305dp"
+        android:layout_below="@+id/updatetitle"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Description" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="612dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="64dp"
+        android:text="Update" />
+
+</RelativeLayout>
